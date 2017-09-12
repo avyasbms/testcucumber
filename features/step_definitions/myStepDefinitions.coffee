@@ -39,4 +39,9 @@ module.exports = ->
       callback.fail new Error('Expected sum to be ' + arg1)
     return
 
+  @When /^I multiply (-?\d+) and (-?\d+)$/, (arg1, arg2, callback) ->
+    @multiply(arg1,arg2)
+    callback()
+    return
+
   return

@@ -23,6 +23,10 @@ module.exports.World = World = (callback) ->
     @calc.substract(Number arg)
     return
 
+  @multiply = (arg1,arg2) ->
+    @calc.multiply(Number arg1,Number arg2)
+    return
+
   @result = ->
     @calc.result()
 

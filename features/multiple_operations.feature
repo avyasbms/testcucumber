@@ -42,3 +42,12 @@ Feature: Multiple Addition and Subtraction Operations
     And then add 3404
     And the calculator is cleared
     Then the result should be 0
+  
+  Scenario: Clear resets result to zero after complex operations
+      Given the calculator is cleared
+      When I multiply 37656536544 and 1
+      Then the result should be 37656536544
+
+
+
+    

@@ -17,6 +17,10 @@ class Calc
     @_currentSum = @_currentSum - arg
     return
 
+  multiply: (arg1,arg2) ->
+    @_currentSum = arg1*arg2
+    return
+
   result: ->
     @_currentSum
 

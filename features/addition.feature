@@ -14,3 +14,23 @@ Feature: Add Numbers
     Given the calculator is cleared
     When I add 56 and 67
     Then the result should be 123
+
+  Scenario: Add 2 large numbers
+    Given the calculator is cleared
+    When I add 2353533534 and 2353533534
+    Then the result should be 4707067068
+
+  Scenario: Add 2 large numbers
+    Given the calculator is cleared
+    When I add 4707067068 and 4707067068
+    Then the result should be 9414134136
+
+  Scenario: Add 2 large numbers
+    Given the calculator is cleared
+    When I add 9414134136 and 9414134136
+    Then the result should be 18828268272
+
+  Scenario: Add 2 large numbers
+    Given the calculator is cleared
+    When I add 37656536544 and 37656536544
+    Then the result should be 75313073088    

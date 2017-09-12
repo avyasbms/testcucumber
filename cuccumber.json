@@ -1,0 +1,711 @@
+[
+  {
+    "id": "Add-Numbers",
+    "name": "Add Numbers",
+    "description": "As a user of the calculator\nI want to add 2 numbers",
+    "line": 2,
+    "keyword": "Feature",
+    "tags": [
+      {
+        "name": "@tag1",
+        "line": 1
+      }
+    ],
+    "uri": "/Users/amitvyas/projects/sbe/TuteCumber/features/addition.feature",
+    "elements": [
+      {
+        "name": "Add 2 small numbers",
+        "id": "Add-Numbers;add-2-small-numbers",
+        "line": 7,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@tag2",
+            "line": 6
+          }
+        ],
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 8,
+            "keyword": "Given ",
+            "result": {
+              "duration": 503240,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 5 and 6",
+            "line": 9,
+            "keyword": "When ",
+            "result": {
+              "duration": 145869,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 11",
+            "line": 10,
+            "keyword": "Then ",
+            "result": {
+              "duration": 112860,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Add 2 big numbers",
+        "id": "Add-Numbers;add-2-big-numbers",
+        "line": 13,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@tag3",
+            "line": 12
+          }
+        ],
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 14,
+            "keyword": "Given ",
+            "result": {
+              "duration": 22759,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 56 and 67",
+            "line": 15,
+            "keyword": "When ",
+            "result": {
+              "duration": 13564,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 123",
+            "line": 16,
+            "keyword": "Then ",
+            "result": {
+              "duration": 15708,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Add 2 large numbers",
+        "id": "Add-Numbers;add-2-large-numbers",
+        "line": 18,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 19,
+            "keyword": "Given ",
+            "result": {
+              "duration": 14800,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 2353533534 and 2353533534",
+            "line": 20,
+            "keyword": "When ",
+            "result": {
+              "duration": 121880,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 4707067068",
+            "line": 21,
+            "keyword": "Then ",
+            "result": {
+              "duration": 26332,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Add 2 large numbers",
+        "id": "Add-Numbers;add-2-large-numbers",
+        "line": 23,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 24,
+            "keyword": "Given ",
+            "result": {
+              "duration": 18939,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 4707067068 and 4707067068",
+            "line": 25,
+            "keyword": "When ",
+            "result": {
+              "duration": 12599,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 9414134136",
+            "line": 26,
+            "keyword": "Then ",
+            "result": {
+              "duration": 10462,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Add 2 large numbers",
+        "id": "Add-Numbers;add-2-large-numbers",
+        "line": 28,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 29,
+            "keyword": "Given ",
+            "result": {
+              "duration": 11824,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 9414134136 and 9414134136",
+            "line": 30,
+            "keyword": "When ",
+            "result": {
+              "duration": 11297,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 18828268272",
+            "line": 31,
+            "keyword": "Then ",
+            "result": {
+              "duration": 24948,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Add 2 large numbers",
+        "id": "Add-Numbers;add-2-large-numbers",
+        "line": 33,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 34,
+            "keyword": "Given ",
+            "result": {
+              "duration": 14880,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 37656536544 and 37656536544",
+            "line": 35,
+            "keyword": "When ",
+            "result": {
+              "duration": 12593,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 75313073088",
+            "line": 36,
+            "keyword": "Then ",
+            "result": {
+              "duration": 10182,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Multiple-Addition-and-Subtraction-Operations",
+    "name": "Multiple Addition and Subtraction Operations",
+    "description": "In order to perform real world calculations\nAs a user of the calculator\nI want to be able to chain multiple additions and subtractions",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/amitvyas/projects/sbe/TuteCumber/features/multiple_operations.feature",
+    "elements": [
+      {
+        "name": "Multiple Addition",
+        "id": "Multiple-Addition-and-Subtraction-Operations;multiple-addition",
+        "line": 6,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 7,
+            "keyword": "Given ",
+            "result": {
+              "duration": 12696,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 5 and 6",
+            "line": 8,
+            "keyword": "When ",
+            "result": {
+              "duration": 10578,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 6",
+            "line": 9,
+            "keyword": "And ",
+            "result": {
+              "duration": 65569,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 65",
+            "line": 10,
+            "keyword": "And ",
+            "result": {
+              "duration": 9465,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 82",
+            "line": 11,
+            "keyword": "Then ",
+            "result": {
+              "duration": 10076,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Multiple Addition and subtraction",
+        "id": "Multiple-Addition-and-Subtraction-Operations;multiple-addition-and-subtraction",
+        "line": 13,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 14,
+            "keyword": "Given ",
+            "result": {
+              "duration": 23916,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 5 and 6",
+            "line": 15,
+            "keyword": "When ",
+            "result": {
+              "duration": 11731,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 45",
+            "line": 16,
+            "keyword": "And ",
+            "result": {
+              "duration": 23599,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then subtract 24",
+            "line": 17,
+            "keyword": "And ",
+            "result": {
+              "duration": 96545,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 32",
+            "line": 18,
+            "keyword": "Then ",
+            "result": {
+              "duration": 21076,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Multiple Addition and subtraction result negative",
+        "id": "Multiple-Addition-and-Subtraction-Operations;multiple-addition-and-subtraction-result-negative",
+        "line": 20,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 21,
+            "keyword": "Given ",
+            "result": {
+              "duration": 15323,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I subtract 65 from 34",
+            "line": 22,
+            "keyword": "When ",
+            "result": {
+              "duration": 56818,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 45",
+            "line": 23,
+            "keyword": "And ",
+            "result": {
+              "duration": 8345,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then subtract 87",
+            "line": 24,
+            "keyword": "And ",
+            "result": {
+              "duration": 8856,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be -73",
+            "line": 25,
+            "keyword": "Then ",
+            "result": {
+              "duration": 6929,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Multiple Addition with clear mid operation",
+        "id": "Multiple-Addition-and-Subtraction-Operations;multiple-addition-with-clear-mid-operation",
+        "line": 27,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 28,
+            "keyword": "Given ",
+            "result": {
+              "duration": 10266,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I add 5 and 6",
+            "line": 29,
+            "keyword": "When ",
+            "result": {
+              "duration": 7910,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the calculator is cleared",
+            "line": 30,
+            "keyword": "And ",
+            "result": {
+              "duration": 37701,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 65",
+            "line": 31,
+            "keyword": "And ",
+            "result": {
+              "duration": 16313,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 65",
+            "line": 32,
+            "keyword": "Then ",
+            "result": {
+              "duration": 18642,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Clear resets result to zero",
+        "id": "Multiple-Addition-and-Subtraction-Operations;clear-resets-result-to-zero",
+        "line": 34,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 35,
+            "keyword": "When ",
+            "result": {
+              "duration": 12437,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 0",
+            "line": 36,
+            "keyword": "Then ",
+            "result": {
+              "duration": 8912,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Clear resets result to zero after complex operations",
+        "id": "Multiple-Addition-and-Subtraction-Operations;clear-resets-result-to-zero-after-complex-operations",
+        "line": 38,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "I add 5 and 6",
+            "line": 39,
+            "keyword": "When ",
+            "result": {
+              "duration": 27992,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 65",
+            "line": 40,
+            "keyword": "And ",
+            "result": {
+              "duration": 8059,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then subtract 4055",
+            "line": 41,
+            "keyword": "And ",
+            "result": {
+              "duration": 7983,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "then add 3404",
+            "line": 42,
+            "keyword": "And ",
+            "result": {
+              "duration": 8095,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the calculator is cleared",
+            "line": 43,
+            "keyword": "And ",
+            "result": {
+              "duration": 8009,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 0",
+            "line": 44,
+            "keyword": "Then ",
+            "result": {
+              "duration": 6673,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      },
+      {
+        "name": "Clear resets result to zero after complex operations",
+        "id": "Multiple-Addition-and-Subtraction-Operations;clear-resets-result-to-zero-after-complex-operations",
+        "line": 46,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 47,
+            "keyword": "Given ",
+            "result": {
+              "duration": 7458,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I multiply 37656536544 and 1",
+            "line": 48,
+            "keyword": "When ",
+            "result": {
+              "duration": 90219,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 37656536544",
+            "line": 49,
+            "keyword": "Then ",
+            "result": {
+              "error_message": "Error: Expected sum to be 37656536544\n  at World.<anonymous> (/Users/amitvyas/projects/sbe/TuteCumber/features/step_definitions/myStepDefinitions.coffee:39:25)\n  at World.<anonymous> (/Users/amitvyas/projects/sbe/TuteCumber/features/step_definitions/myStepDefinitions.coffee:44:5)\n  at World.<anonymous> (/Users/amitvyas/projects/sbe/TuteCumber/features/step_definitions/myStepDefinitions.coffee:5:5)\n  at _combinedTickCallback (internal/process/next_tick.js:73:7)\n  at process._tickDomainCallback (internal/process/next_tick.js:128:9)\n  at Module.runMain (module.js:607:11)\n  at run (bootstrap_node.js:427:7)\n  at startup (bootstrap_node.js:151:9)\n  at bootstrap_node.js:542:3\n",
+              "duration": 174160,
+              "status": "failed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "Subtract-Numbers",
+    "name": "Subtract Numbers",
+    "description": "As a user of the calculator\nI want to subtract 2 numbers",
+    "line": 1,
+    "keyword": "Feature",
+    "uri": "/Users/amitvyas/projects/sbe/TuteCumber/features/subtraction.feature",
+    "elements": [
+      {
+        "name": "Subtract 2 small numbers",
+        "id": "Subtract-Numbers;subtract-2-small-numbers",
+        "line": 5,
+        "keyword": "Scenario",
+        "description": "",
+        "type": "scenario",
+        "steps": [
+          {
+            "name": "the calculator is cleared",
+            "line": 6,
+            "keyword": "Given ",
+            "result": {
+              "duration": 25045,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "I subtract 5 from 6",
+            "line": 7,
+            "keyword": "When ",
+            "result": {
+              "duration": 13157,
+              "status": "passed"
+            },
+            "match": {}
+          },
+          {
+            "name": "the result should be 1",
+            "line": 8,
+            "keyword": "Then ",
+            "result": {
+              "duration": 7821,
+              "status": "passed"
+            },
+            "match": {}
+          }
+        ]
+      }
+    ]
+  }
+]
