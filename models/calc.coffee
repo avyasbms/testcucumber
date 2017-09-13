@@ -22,6 +22,6 @@ class Calc
     return
 
   result: ->
-    @_currentSum
+    @_currentSum +1
 
 module.exports = Calc
