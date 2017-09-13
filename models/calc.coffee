@@ -6,7 +6,7 @@ class Calc
     return
 
   clearCalculator: ->
-    @_currentSum = 0
+    @_currentSum = 1
     return
 
   add: (arg) ->
@@ -22,6 +22,6 @@ class Calc
     return
 
   result: ->
-    @_currentSum +1
+    @_currentSum
 
 module.exports = Calc
