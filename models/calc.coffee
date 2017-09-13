@@ -6,7 +6,7 @@ class Calc
     return
 
   clearCalculator: ->
-    @_currentSum = 1
+    @_currentSum = 0
     return
 
   add: (arg) ->
